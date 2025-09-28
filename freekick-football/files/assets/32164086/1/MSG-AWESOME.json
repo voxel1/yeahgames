@@ -1,0 +1,139 @@
+{
+  "model": {
+    "version": 3,
+    "nodes": [
+      {
+        "name": "RootNode",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.01,
+          0.01,
+          0.01
+        ],
+        "scaleCompensation": false
+      },
+      {
+        "name": "MSG-AWESOME",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          -90,
+          0,
+          0
+        ],
+        "scale": [
+          1.19455,
+          1.19455,
+          1.19455
+        ],
+        "scaleCompensation": false
+      }
+    ],
+    "parents": [
+      -1,
+      0
+    ],
+    "skins": [],
+    "morphs": [],
+    "vertices": [
+      {
+        "position": {
+          "type": "float32",
+          "components": 3,
+          "data": [
+            -1100.16,
+            0.00000926983,
+            250,
+            -1097.12,
+            0.0000907302,
+            -250,
+            1097.12,
+            0.00000926983,
+            250,
+            1100.16,
+            0.0000907302,
+            -250
+          ]
+        },
+        "normal": {
+          "type": "float32",
+          "components": 3,
+          "data": [
+            0,
+            -1,
+            -1.62921e-7,
+            0,
+            -1,
+            -1.62921e-7,
+            0,
+            -1,
+            -1.62921e-7,
+            0,
+            -1,
+            -1.62921e-7
+          ]
+        },
+        "texCoord0": {
+          "type": "float32",
+          "components": 2,
+          "data": [
+            0.154596,
+            1,
+            0.155609,
+            0.666667,
+            0.887021,
+            1,
+            0.888034,
+            0.666667
+          ]
+        }
+      }
+    ],
+    "meshes": [
+      {
+        "aabb": {
+          "min": [
+            -1100.16,
+            0.00000926983,
+            -250
+          ],
+          "max": [
+            1100.16,
+            0.0000907302,
+            250
+          ]
+        },
+        "vertices": 0,
+        "indices": [
+          0,
+          1,
+          2,
+          3,
+          2,
+          1
+        ],
+        "type": "triangles",
+        "base": 0,
+        "count": 6
+      }
+    ],
+    "meshInstances": [
+      {
+        "node": 1,
+        "mesh": 0
+      }
+    ]
+  }
+}

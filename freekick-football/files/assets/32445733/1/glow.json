@@ -1,0 +1,139 @@
+{
+  "model": {
+    "version": 3,
+    "nodes": [
+      {
+        "name": "RootNode",
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          0.0254,
+          0.0254,
+          0.0254
+        ],
+        "scaleCompensation": false
+      },
+      {
+        "name": "glow",
+        "position": [
+          0,
+          0,
+          -1.7118e-8
+        ],
+        "rotation": [
+          0.00000933467,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "scaleCompensation": false
+      }
+    ],
+    "parents": [
+      -1,
+      0
+    ],
+    "skins": [],
+    "morphs": [],
+    "vertices": [
+      {
+        "position": {
+          "type": "float32",
+          "components": 3,
+          "data": [
+            2.23009,
+            2.23009,
+            0,
+            -2.23009,
+            2.23009,
+            0,
+            -2.23009,
+            -2.23009,
+            0,
+            2.23009,
+            -2.23009,
+            0
+          ]
+        },
+        "normal": {
+          "type": "float32",
+          "components": 3,
+          "data": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ]
+        },
+        "texCoord0": {
+          "type": "float32",
+          "components": 2,
+          "data": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      }
+    ],
+    "meshes": [
+      {
+        "aabb": {
+          "min": [
+            -2.23009,
+            -2.23009,
+            0
+          ],
+          "max": [
+            2.23009,
+            2.23009,
+            0
+          ]
+        },
+        "vertices": 0,
+        "indices": [
+          0,
+          1,
+          2,
+          0,
+          2,
+          3
+        ],
+        "type": "triangles",
+        "base": 0,
+        "count": 6
+      }
+    ],
+    "meshInstances": [
+      {
+        "node": 1,
+        "mesh": 0
+      }
+    ]
+  }
+}
